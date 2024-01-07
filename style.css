@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+
+}
+
+body {
+    background-color: black;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(29, 22, 22);
+
+}
+
+.logo {
+    padding: 6px 0 10px 10px;
+    width: 60px;
+}
+
+.logo img {
+    width: 100%;
+    height: 40px;
+}
+
+.nav-menu {
+    padding: 15px 30px 0 0;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background-image: url("./dom/3014602.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+.section h1 {
+    font-size: 70px;
+    text-shadow: 1px 1px 3px rgb(182, 136, 46), 1px 1px 3px black;
+}
+
+.section h2 {
+    font-size: 40px;
+    text-shadow: 1px 1px 1px burlywood;
+}
+
+.menu {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-image: url(./dom/pexels-creative-vix-370984.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.menu h1 {
+    font-size: 45px;
+}
+
+.menu2 h1 {
+    font-size: 45px;
+}
+
+.menu h4 {
+    font-size: 20px;
+}
+
+.menu2 h4 {
+    font-size: 20px;
+}
+
+@media(max-width:520px) {
+
+    .section {
+        height: 30vh;
+    }
+
+    .section h1 {
+        font-size: 30px;
+        text-shadow: 1px 1px 3px rgb(182, 136, 46), 1px 1px 3px black;
+    }
+
+    .section h2 {
+        font-size: 10px;
+    }
+
+    .menu h1,
+    .menu2 h1 {
+        font-size: 18px;
+    }
+
+    .menu h4,
+    .menu2 h4 {
+        font-size: 12px;
+    }
+
+    .menu {
+        padding: 10px;
+    }
+
+    .item img {
+        width: 100%;
+    }
+
+    .item {
+        gap: 20px;
+        padding: 0 0 0 20px;
+    }
+
+    .item2 {
+        gap: 20px;
+        padding: 0 10px 0 0;
+        text-align: right;
+    }
+
+    .item2 img {
+        width: 100%;
+    }
+}
+
+.menu2 {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-image: url(./dom/3014734.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 0 0 0 100px;
+}
+
+.item img {
+    width: 35%;
+}
+
+.item-info {
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.item2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    padding: 0 100px 0 0;
+    text-align: right;
+}
+
+.item2 img {
+    width: 30%;
+}
+
+.itemsHeading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 20px;
+    color: aliceblue;
+}
+
+@media(max-width:750px) {
+
+    .item2 img,
+    .item img {
+        width: 80%;
+    }
+
+    .item-info {
+        width: 50%;
+        padding: 10px 0;
+    }
+
+    .item2 {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 0;
+        text-align: center;
+    }
+}
+
+.bill {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bill .pdetails {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.head {
+    padding: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+button {
+    margin: 20px 0;
+    padding: 30px;
+    align-self: center;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+input {
+    border: none;
+    width: 300px;
+    height: 30px;
+    padding: 0 20px;
+    outline: none;
+    box-shadow: inset 2px 2px 2px rgb(146, 142, 142);
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+input:focus {
+    transform: scale(1.03, 1.1);
+
+}
+
+.bdetails {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+@media(max-width:1000px) {
+    .bdetails {
+        flex-direction: column;
+    }
+}
+
+#sub {
+    display: flex;
+}
+
+#sub input {
+    width: 150px;
+}
+
+.bdetails button {
+    align-self: center;
+    width: 100px;
+    height: 40px;
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px burlywood, 3px 3px 2px white;
+}
+
+.head h2 {
+    font-size: 40px;
+}
+
+.add {
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 3px 3px 3px black, 2px 2px 2px blue, 1px 1px 1px burlywood;
+}
+
+.ordered_items_names {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ordered_items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ordered_items input {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.ordered_quantity input {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.ordered_quantity {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.total {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.gst,
+.tip {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+
+::placeholder {
+    color: black;
+}
+
+@media(max-width:1000px) {
+
+    .gst,
+    .tip {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-direction: column;
+
+    }
+}

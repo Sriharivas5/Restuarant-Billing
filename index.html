@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/98/98017.png">
+</head>
+
+<!-- Navbar  -->
+<div class="navbar">
+    <div class="logo">
+        <img src="https://banner2.cleanpng.com/20210323/rvh/transparent-hotel-icon-plate-icon-restaurant-icon-605a380cab6830.3524345516165253247021.jpg"
+            alt="">
+    </div>
+    <div class="nav-menu">
+        <ul>
+            <a href="#home">
+                <li>Home</li>
+            </a>
+            <a href="#menu">
+                <li>Menu</li>
+            </a>
+            <a href="#bill">
+                <li>BIll</li>
+            </a>
+            <a href="">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </div>
+</div>
+
+<!-- Section  -->
+<div class="section" id="home">
+    <h1>Welcome foodie</h1>
+    <h2>Scroll down to see magic</h2>
+</div>
+
+<!-- Menu  -->
+<div class="menu">
+    <div class="item">
+        <img src="./dom/kunda-biryani.jpg" alt="">
+        <div class="item-info">
+            <h1>
+                Kunda Biryani
+            </h1>
+            <h4>
+                Price
+            </h4>
+            <p>100RS</p>
+        </div>
+    </div>
+    <div class="item2">
+        <div class="item-info">
+            <h1>
+                FryPiece Biryani
+            </h1>
+            <h4>
+                Price
+            </h4>
+            <p>100RS</p>
+        </div>
+        <img src="./dom/frypiece-biryani.jpg" alt="">
+    </div>
+    <div class="item">
+        <img src="./dom/dum-biryani.jpg" alt="">
+        <div class="item-info">
+            <h1>
+                Dum Biryani
+            </h1>
+            <h4>
+                Price
+            </h4>
+            <p>100RS</p>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="menu2">
+    <div class="item2">
+        <div class="item-info">
+            <h1>
+                Chicken Lolipop
+            </h1>
+            <h4>
+                Price
+            </h4>
+            <p>100RS</p>
+        </div>
+        <img src="./dom/chicken-lolipop.jpg" alt="">
+    </div>
+    <div class="item">
+        <img src="./dom/chicken-burger.jpg" alt="">
+        <div class="item-info">
+            <h1>
+                Chicken Burger
+            </h1>
+            <h4>
+                Price
+            </h4>
+            <p>100RS</p>
+        </div class="item-info">
+    </div>
+    <div class="item2">
+        <div class="item-info">
+            <h1>
+                Chicken Shawarma
+            </h1>
+            <h4>
+                Price
+            </h4>
+            <p>100RS</p>
+        </div class="item-info">
+        <img src="./dom/shawarma.jpg" alt="">
+    </div>
+</div>
+
+
+<!-- Bill  -->
+<div class="bill" id="bill">
+    <div class="pdetails">
+        <div class="head">
+            <h2>Enter Your Details below</h2>
+            <h4>So that we send billing details to you</h4>
+        </div>
+        Enter Your Name<input id="name" type="text">
+        Phone<input id="phone" type="text">
+        Email<input id="email" type="email">
+    </div>
+    <div class="itemsHeading">
+        <h1>
+            Items
+        </h1>
+    </div>
+    <div class="bdetails">
+        <div class="ordered_items_names">
+            <h3>Item Name</h3>
+            <input type="text" readonly value="kunda Biryani">
+            <input type="text" readonly value="FryPiece Biryani">
+            <input type="text" readonly value="Dum Biryani">
+            <input type="text" readonly value="Chicken Lolipop ">
+            <input type="text" readonly value="Chicken Burger">
+            <input type="text" readonly value="Chicken Shawarma">
+        </div>
+        <div id="sub">
+            <div class="ordered_items">
+                <h3>Price</h3>
+                <input type="text" id="kb">
+                <input type="text" id="fb">
+                <input type="text" id="db">
+                <input type="text" id="cl">
+                <input type="text" id="cb">
+                <input type="text" id="cs">
+            </div>
+            <div class="ordered_quantity">
+                <h3>Quantity</h3>
+                <input type="text" id="quantity1">
+                <input type="text" id="quantity2">
+                <input type="text" id="quantity3">
+                <input type="text" id="quantity4">
+                <input type="text" id="quantity5">
+                <input type="text" id="quantity6">
+            </div>
+        </div>
+
+    </div>
+    <div class="total">
+        <div class="gst">
+            <input type="text" readonly placeholder="Enter Gst Percentage">
+            <input type="text" id="gstInput">
+        </div>
+        <div class="tip">
+            <input type="text"  readonly placeholder="Enter Amount of Tip" >
+            <input type="text " id="tipInput" value="0">
+        </div>
+    </div>
+    <button id="btn" onclick="calculate()">Check</button>
+
+    <div class="add">
+        <div class="pd">
+            <p id="para1">
+            </p>
+            <p id="para2">
+            </p>
+            <p id="para3">
+            </p>
+            <p id="para4">
+            </p>
+        </div>
+        <div class="bd">
+            <div id="para5"></div>
+            <div id="para6"></div>
+            <div id="para7"></div>
+            <div id="para8"></div>
+            <div id="para9"></div>
+            <div id="para10"></div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
