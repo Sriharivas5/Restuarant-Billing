@@ -14,4 +14,4 @@ Welcome to our modern restaurant Website with bill calculator project! This appl
 - **HTML**: Markup language for structuring the web page.
 - **CSS**: Stylesheets for designing the layout and incorporating the glassmorphism effect.
 - **JavaScript**: Programming language for implementing functionality and interactivity, including bill calculation.
-  
+### project link: https://sriharivas5.github.io/Restuarant-Billing/
