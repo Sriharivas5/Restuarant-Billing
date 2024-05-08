@@ -15,3 +15,8 @@ Welcome to our modern restaurant Website with bill calculator project! This appl
 - **CSS**: Stylesheets for designing the layout and incorporating the glassmorphism effect.
 - **JavaScript**: Programming language for implementing functionality and interactivity, including bill calculation.
 ### project link: https://sriharivas5.github.io/Restuarant-Billing/
+![Screenshot 2024-05-08 084659](https://github.com/Sriharivas5/Restuarant-Billing/assets/155137670/aba75421-ea62-4c6f-8948-881e57b44863)
+![Screenshot 2024-05-08 084734](https://github.com/Sriharivas5/Restuarant-Billing/assets/155137670/9b62e2ee-d0a3-47ba-bb07-196b8a8c0e23)
+![Screenshot 2024-05-08 084745](https://github.com/Sriharivas5/Restuarant-Billing/assets/155137670/b6124288-24e0-48f7-9acb-50b70f5e5c12)
+![Screenshot 2024-05-08 085016](https://github.com/Sriharivas5/Restuarant-Billing/assets/155137670/67228eb4-f3f5-4264-965d-e7e08b171007)
+![Screenshot 2024-05-08 085029](https://github.com/Sriharivas5/Restuarant-Billing/assets/155137670/c94f0d3d-5484-4eea-8851-64fd9f89affa)
